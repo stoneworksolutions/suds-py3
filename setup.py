@@ -20,14 +20,14 @@ import suds
 from setuptools import setup, find_packages
 
 setup(
-    name="suds-py3",
+    name="suds",
     version=suds.__version__,
     description="Lightweight SOAP client",
 	long_description = 'The "suds-p3" is a lightweight soap-based client for python3 licensed under LGPL. This is a mirror of http://svn.fedorahosted.org/svn/suds/trunk/ supporting Python3 and some fixes.',
     author="Cackharot (original Jeff Ortel)",
     author_email="cackharot@gmail.com",
     packages=find_packages(exclude=['tests']),
-    url="https://github.com/cackharot/suds-py3",
+    url="https://github.com/stoneworksolutions/suds-py3",
 	license="LGPL",
 	keywords="soap, wsdl,basic http binding, basic auth",
 	platforms="Python3",
